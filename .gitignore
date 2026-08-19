@@ -1,0 +1,7 @@
+# Archivos basura y respaldos de Proteus
+*.BAK
+*.LOG
+*.TMP
+*.DSN_
+*.LYT_
+*.PDB_
