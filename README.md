@@ -9,12 +9,12 @@
 ## ✨ Key Features
 * **Topology:** Half-bridge (Push-Pull) with a robust MOSFET power stage.
 * **Galvanic Isolation:** Control signals are fully isolated from the power stage via optocouplers to protect the logic circuits.
-* **Dual Power Architecture:** 12V for control logic and 24V/5A direct line for the motor power stage.
-* **Smart Switching:** Implementation of a Bootstrap circuit for efficient High-Side MOSFET switching without thermal throttling.
+* **Triple Power Architecture:** 5V for control logic and buffers, a dedicated 12V line for active cooling (fans), and a robust 24V/5A direct line for the motor power stage.
+
 
 ## 📂 Repository Structure
 * `/Hardware` - Proteus project files.
-* `/Docs` - Schematics in PDF and component datasheets.
+* `/Docs` - Schematics in PDF.
 
 ## 📸 PCB Gallery
 *Complete PCB layout and 3D render of the 5-phase driver board designed in Proteus.*
